@@ -18,7 +18,7 @@ async function fun(){
      let div = document.createElement("div");
     div.setAttribute("class","main");
     div.innerHTML=`<div class="card" style="width: 18rem;">
-    <img src="${value.image_link}" class="card-img-top" alt="...">
+    <img src="${value.image_link}" class="card-img-top" alt="..." height="200px" width="200px">
     <div class="card-body">
       <p class="card-text">Name: ${value.name}
       LifeSpan:${value.lifespan}</p>
